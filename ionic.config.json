@@ -1,0 +1,7 @@
+{
+  "name": "consent-form",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
