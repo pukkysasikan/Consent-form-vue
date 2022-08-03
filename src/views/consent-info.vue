@@ -199,21 +199,8 @@
                   <ion-label>
                     <h3>ยอมรับข้อตกลง</h3>
                   </ion-label>
+                  <ion-toggle color="danger"></ion-toggle>
                 </ion-list-header>
-                <ion-radio-group mode="md">
-                  <ion-item color="tertiary">
-                    <ion-label>
-                      <h3><b>อนุญาต</b></h3>
-                    </ion-label>
-                    <ion-radio slot="start" value="true"></ion-radio>
-                  </ion-item>
-                  <ion-item color="tertiary">
-                    <ion-label>
-                      <h3><b>ปฏิเสธ</b></h3>
-                    </ion-label>
-                    <ion-radio slot="start" value="false"></ion-radio>
-                  </ion-item>
-                </ion-radio-group>
               </ion-list>
             </ion-card>
           </div>
@@ -236,8 +223,6 @@ import {
   IonList,
   IonListHeader,
   IonItem,
-  IonRadio,
-  IonRadioGroup,
   IonLabel,
   IonText,
   IonHeader,
@@ -258,8 +243,6 @@ export default defineComponent({
     IonList,
     IonListHeader,
     IonItem,
-    IonRadio,
-    IonRadioGroup,
     IonLabel,
     IonText,
     IonHeader,
