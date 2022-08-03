@@ -9,9 +9,14 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/home',
-    name: 'Home',
-    component: HomePage
-  }
+    name: 'Consent-info',
+    component: () => import('../views/consent-info.vue')
+  },
+  {
+    path: '/consent-rider',
+    name: 'Consent-rider',
+    component: () => import('../views/consent-rider.vue')
+  },
 ]
 
 const router = createRouter({
